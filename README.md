@@ -1,6 +1,11 @@
 ### Setup
 
-First, you'll need a Postgres database to connect to. 
+Next `cd` into `backend` and run `npm install` to install dependencies for the API.
+
+Next, `cd` into `frontend`, and run `npm install` to install dependencies for the React app.
+
+
+You will need a Postgres database to connect to. 
 Follow instructions here to setup the database and save credentials for the next step.
 
 
@@ -14,9 +19,6 @@ DB_PASSWORD=(yourpassword)
 DB_DATABASE=restRantDB
 ```
 
-Next `cd` into `backend` and run `npm install` to install dependencies for the API.
-
-Next, `cd` into `frontend`, and run `npm install` to install dependencies for the React app.
 
 Finally, in separate terminals, run `npm start` in each folder so that the API and React app are running at the same time.
 
