@@ -4,21 +4,33 @@ Next `cd` into `backend` and run `npm install` to install dependencies for the A
 
 Next, `cd` into `frontend`, and run `npm install` to install dependencies for the React app.
 
+      ou will need a Postgres database to connect to.
+Follow instructions in the document located in the support folder
 
-You will need a Postgres database to connect to. 
-Follow instructions here to setup the database and save credentials for the next step.
+**\*\*** "CreateDB for Rest_Rant Deploy Lesson.pdf" **\*\*\***
 
-
-
-Next create a `.env` file inside of `backend`. It will need to contain the following environment variables (change the values for the database to match what you defined in the previous step)
+Next create a `.env` file inside of `backend`. It will need to contain the following environment variables (change the values to match the DB and user/passowrd you created on your local PGADMIN server)
 
 ```
+NODE_ENV=development
+
+# dev settings
 PORT=5000
-DB_USERNAME=rest_rant_user
-DB_PASSWORD=(yourpassword)
-DB_DATABASE=restRantDB
-```
+DB_USERNAME=postgres
+DB_PASSWORD=postgres
+DB_DATABASE=Rest_Rant
+DB_PORT=5432
 
+
+# These Varibles must me entered on the deployed side once you have a production database
+# To test the app local as a monot app set these to the same settings as dev and run you rlocal testing command
+#NODE_ENV=production PORT=8000 node index.js
+RDS_USERNAME= DB user name
+RDS_PASSWORD= DB password
+RDS_DB_NAME= DB name
+RDS_HOSTNAME= DB Host Address
+RDS_PORT= DB PORT
+```
 
 Finally, in separate terminals, run `npm start` in each folder so that the API and React app are running at the same time.
 
