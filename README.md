@@ -9,7 +9,9 @@ Follow instructions in the document located in the support folder
 
 **\*\*** "CreateDB for Rest_Rant Deploy Lesson.pdf" **\*\*\***
 
-Next create a `.env` file inside of `backend`. It will need to contain the following environment variables (change the values to match the DB and user/passowrd you created on your local PGADMIN server)
+Next create a `.env` file inside of `backend`. 
+It will need to contain the following environment variables 
+(change the values to match the DB and user/passowrd you created on your local PGADMIN server)
 
 ```
 NODE_ENV=development
