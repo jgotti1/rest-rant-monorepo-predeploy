@@ -1,13 +1,24 @@
-### Setup
+### Setup #####
+
+# How to Docs for REST_RANT DEPLOY LESSON ##########
+
+[How to prepare your Code To Deploy as a Mono App](https://docs.google.com/document/d/1TTCSyoo8-dBIQBmyw2ioXaqK6EArBoSf/edit)
+
+[How to create yourDatabase Local for Rest Rant ](https://docs.google.com/document/d/1C0ZF4c62G-0fiP3lw0ZBhFY4YDpQlDYD/edit)
+
+[How to deploy a AWS Beanstalk APP](https://docs.google.com/document/d/1TYHx_9HtYntRm7QT2ob_B90yiZRmZr0f/edit)
+
+#####################################################
 
 Next `cd` into `backend` and run `npm install` to install dependencies for the API.
 
 Next, `cd` into `frontend`, and run `npm install` to install dependencies for the React app.
 
-      ou will need a Postgres database to connect to.
-Follow instructions in the document located in the support folder
+**\*\*** "CreateDB for Rest_Rant Deploy" **\*\*\***
+Next you will need a Postgres database to connect to.
+Follow instructions in the document inked above 
 
-**\*\*** "CreateDB for Rest_Rant Deploy Lesson.pdf" **\*\*\***
+
 
 Next create a `.env` file inside of `backend`. 
 It will need to contain the following environment variables 
