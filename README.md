@@ -1,12 +1,12 @@
-### Setup #####
+### Setup
 
-# How to Docs for REST_RANT DEPLOY LESSON ##########
+# How to Docs for REST_RANT DEPLOY LESSON
 
-[How to prepare your Code To Deploy as a Mono App](https://docs.google.com/document/d/1TTCSyoo8-dBIQBmyw2ioXaqK6EArBoSf/edit)
+[How to prepare your Code To Deploy as a Mono App](https://docs.google.com/document/d/1TTCSyoo8-dBIQBmyw2ioXaqK6EArBoSf/edit?usp=sharing&ouid=102831465938890335297&rtpof=true&sd=true)
 
-[How to create yourDatabase Local for Rest Rant ](https://docs.google.com/document/d/1C0ZF4c62G-0fiP3lw0ZBhFY4YDpQlDYD/edit)
+[How to create yourDatabase Local for Rest Rant ](https://docs.google.com/document/d/1C0ZF4c62G-0fiP3lw0ZBhFY4YDpQlDYD/edit?usp=sharing&ouid=102831465938890335297&rtpof=true&sd=true)
 
-[How to deploy a AWS Beanstalk APP](https://docs.google.com/document/d/1TYHx_9HtYntRm7QT2ob_B90yiZRmZr0f/edit)
+[How to deploy a AWS Beanstalk APP](https://docs.google.com/document/d/18XGg5USjCjbw0YMyOHSIXzQXsj1Z9xOr_WpxTn-ZD0o/edit?usp=sharing)
 
 #####################################################
 
@@ -16,12 +16,10 @@ Next, `cd` into `frontend`, and run `npm install` to install dependencies for th
 
 **\*\*** "CreateDB for Rest_Rant Deploy" **\*\*\***
 Next you will need a Postgres database to connect to.
-Follow instructions in the document inked above 
+Follow instructions in the document inked above
 
-
-
-Next create a `.env` file inside of `backend`. 
-It will need to contain the following environment variables 
+Next create a `.env` file inside of `backend`.
+It will need to contain the following environment variables
 (change the values to match the DB and user/passowrd you created on your local PGADMIN server)
 
 ```
